@@ -1,0 +1,11 @@
+target remote :1234
+b main
+c
+p number
+b 11
+c
+p number=10
+p result
+# continue to the end
+c
+q
